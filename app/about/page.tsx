@@ -137,7 +137,7 @@ export default function AboutPage() {
           <div className="founderBody">
             <h2 id="founder-title">A public education project, with scientific care.</h2>
             <p>
-              The founder�s role here is presented only as far as the public
+              The founder’s role here is presented only as far as the public
               record supports it. The site does not invent qualifications,
               university affiliations, publications, clients, awards, or
               testimonials.
@@ -175,7 +175,7 @@ export default function AboutPage() {
             <p className="kicker">This site is</p>
             <ul>
               <li>A public educational resource.</li>
-              <li>A gateway to the organization�s YouTube work.</li>
+              <li>A gateway to the organization’s YouTube work.</li>
               <li>A place to begin an education, training, or consultation inquiry.</li>
               <li>Careful about uncertainty, attribution, and evidence.</li>
             </ul>

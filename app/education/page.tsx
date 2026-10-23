@@ -184,7 +184,7 @@ export default function EducationPage() {
               No course catalogue, schedule, certification, or enrollment
               pathway is published on this site. If you are planning education
               or professional development and want to discuss whether the
-              organization�s expertise fits the question, start with an inquiry.
+              organization’s expertise fits the question, start with an inquiry.
             </p>
             <p>
               The scope, format, and any next step are confirmed directly. The

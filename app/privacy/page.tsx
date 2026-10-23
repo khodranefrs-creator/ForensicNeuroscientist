@@ -62,7 +62,7 @@ export default function PrivacyPage() {
               </p>
               <p>
                 If delivery is configured for the site, the message is forwarded
-                to the organization�s inquiry endpoint. If delivery is not
+                to the organization’s inquiry endpoint. If delivery is not
                 configured, the form says so and the message is not transmitted
                 or stored. The form does not use the details for marketing.
               </p>
@@ -92,7 +92,7 @@ export default function PrivacyPage() {
               <p>
                 Research links point to third-party publishers. This site does
                 not control their content, privacy practices, or availability.
-                Review the destination�s policy before sharing information
+                Review the destination’s policy before sharing information
                 there.
               </p>
             </article>
