@@ -124,6 +124,50 @@ for (const viewport of viewports) {
   });
 }
 
+test("footer logo is compact and footer text remains readable", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto("/");
+  await page.locator(".footerBrand .fullLogo").scrollIntoViewIfNeeded();
+
+  const metrics = await page.evaluate(() => {
+    const link = document.querySelector<HTMLElement>(".footerBrand > a");
+    const logo = document.querySelector<HTMLImageElement>(
+      ".footerBrand .fullLogo",
+    );
+    const description =
+      document.querySelector<HTMLElement>(".footerDescription");
+    const footerLink = document.querySelector<HTMLElement>(
+      ".footerColumn li a",
+    );
+    const navLabel = document.querySelector<HTMLElement>(".navLabel");
+
+    return {
+      linkBackground: link ? getComputedStyle(link).backgroundColor : null,
+      logoWidth: logo?.getBoundingClientRect().width ?? 0,
+      logoHeight: logo?.getBoundingClientRect().height ?? 0,
+      descriptionSize: description
+        ? parseFloat(getComputedStyle(description).fontSize)
+        : 0,
+      footerLinkSize: footerLink
+        ? parseFloat(getComputedStyle(footerLink).fontSize)
+        : 0,
+      navLabelSize: navLabel
+        ? parseFloat(getComputedStyle(navLabel).fontSize)
+        : 0,
+    };
+  });
+
+  expect(metrics.linkBackground).toBe("rgba(0, 0, 0, 0)");
+  expect(metrics.logoWidth).toBeGreaterThanOrEqual(140);
+  expect(metrics.logoWidth).toBeLessThanOrEqual(180);
+  expect(metrics.logoHeight).toBeGreaterThan(60);
+  expect(metrics.descriptionSize).toBeGreaterThanOrEqual(14);
+  expect(metrics.footerLinkSize).toBeGreaterThanOrEqual(14);
+  expect(metrics.navLabelSize).toBeGreaterThanOrEqual(14);
+});
+
 test("all local images decode", async ({ page }) => {
   test.setTimeout(90_000);
   await page.setViewportSize({ width: 1440, height: 900 });

@@ -1825,13 +1825,13 @@ main:focus {
 
 .footerBrand > a {
   display: inline-flex;
-  padding: 0.75rem;
-  background: var(--white);
-  border-radius: var(--radius);
+  max-width: 100%;
+  padding: 0;
+  background: transparent;
 }
 
 .footerBrand .fullLogo {
-  width: min(100%, 340px);
+  max-width: 100%;
   height: auto;
 }
 
@@ -2440,5 +2440,351 @@ main:focus {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+.brandKicker,
+.brandSub {
+  font-size: 0.62rem;
+}
+
+.brandSub {
+  max-width: 18ch;
+}
+
+.brandName {
+  font-size: 1.06rem;
+}
+
+.navLink {
+  min-height: 46px;
+  padding-block: 0.55rem;
+}
+
+.navNumber {
+  font-size: 0.64rem;
+}
+
+.navLabel {
+  font-size: 0.875rem;
+  line-height: 1.35;
+}
+
+.sideYoutube,
+.sideContact {
+  font-size: 0.7rem;
+}
+
+.sideMotto {
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.menuToggle {
+  font-size: 0.68rem;
+}
+
+.drawerTitle {
+  font-size: 0.76rem;
+}
+
+.drawerYoutube {
+  font-size: 0.72rem;
+}
+
+.drawerFoot p {
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.eyebrow,
+.kicker {
+  font-size: clamp(0.72rem, 0.8vw, 0.78rem);
+  letter-spacing: 0.09em;
+}
+
+.metaLabel {
+  font-size: 0.64rem;
+}
+
+.btn {
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+}
+
+.textLink {
+  font-size: 0.9rem;
+}
+
+.arrowLink {
+  font-size: 0.75rem;
+}
+
+.sectionIntroIndex {
+  font-size: 0.72rem;
+}
+
+.sectionDescription {
+  font-size: 1.04rem;
+  line-height: 1.7;
+}
+
+.heroFolio {
+  font-size: 0.68rem;
+}
+
+.heroLead {
+  font-size: clamp(1.08rem, 1.4vw, 1.2rem);
+  line-height: 1.68;
+}
+
+.heroFacts {
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.heroFoot {
+  font-size: 0.64rem;
+}
+
+.plateTop,
+.plateCaption,
+.plateFoot {
+  font-size: 0.64rem;
+}
+
+.plateAnno {
+  font-size: 0.62rem;
+}
+
+.plateCaption blockquote {
+  line-height: 1.3;
+}
+
+.mottoKicker {
+  font-size: 0.75rem;
+}
+
+.mottoAside > p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.sectionTopAside > p:not(.kicker) {
+  font-size: 0.93rem;
+}
+
+.fieldFeatureTop,
+.fieldRead {
+  font-size: 0.65rem;
+}
+
+.fieldFeature > p {
+  max-width: 36ch;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.fieldListNumber {
+  font-size: 0.66rem;
+}
+
+.fieldListShort {
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.channelCard > p:last-child {
+  font-size: 0.66rem;
+}
+
+.posterMeta,
+.featuredMeta {
+  font-size: 0.64rem;
+}
+
+.featuredCopy > p {
+  font-size: 0.94rem;
+  line-height: 1.65;
+}
+
+.featuredNote {
+  font-size: 0.65rem;
+  line-height: 1.55;
+}
+
+.videoSectionFoot > p {
+  font-size: 0.92rem;
+}
+
+.learningNumber,
+.evidenceNumber,
+.principleNumber,
+.stepNumber,
+.checklistNumber,
+.archiveNumber {
+  font-size: 0.66rem;
+}
+
+.learningRow p {
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.learningTopics {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.evidenceHeader > p:last-child {
+  font-size: 0.95rem;
+}
+
+.evidenceCard p {
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.evidenceFootnote {
+  font-size: 0.72rem;
+  line-height: 1.6;
+}
+
+.consultationBody > p + p {
+  font-size: 0.96rem;
+  line-height: 1.7;
+}
+
+.consultationChecklist li {
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.resourcesStamp {
+  font-size: 0.55rem;
+  line-height: 1.35;
+}
+
+.resourceNumber {
+  font-size: 0.66rem;
+}
+
+.resourceType,
+.resourceMeta {
+  font-size: 0.64rem;
+}
+
+.resourcesFoot > p {
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
+.aboutHomeBody > p + p {
+  font-size: 0.96rem;
+  line-height: 1.7;
+}
+
+.founderLink {
+  font-size: 0.66rem;
+}
+
+.homeContactBody > p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.footerDescription {
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.footerMotto {
+  font-size: 1.12rem;
+}
+
+.footerColumn h2 {
+  font-size: 0.7rem;
+}
+
+.footerColumn li a {
+  font-size: 0.92rem;
+}
+
+.footerReading a {
+  font-size: 0.88rem;
+}
+
+.footerBottom {
+  font-size: 0.74rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 1280px) {
+  .brandName {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  .brandBlockCompact .brandName {
+    font-size: 0.96rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .sectionDescription {
+    font-size: 1rem;
+  }
+
+  .heroLead {
+    font-size: 1.06rem;
+  }
+
+  .heroFacts {
+    font-size: 0.9rem;
+  }
+
+  .plateTop,
+  .plateCaption,
+  .plateFoot {
+    font-size: 0.6rem;
+  }
+
+  .fieldFeature > p {
+    font-size: 0.98rem;
+  }
+
+  .learningTopics {
+    font-size: 0.86rem;
+  }
+
+  .videoSectionFoot > p {
+    font-size: 0.9rem;
+  }
+
+  .footerDescription {
+    font-size: 0.9rem;
+  }
+
+  .footerBottom {
+    font-size: 0.72rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .brandBlockCompact .brandName {
+    font-size: 0.9rem;
+  }
+
+  .heroLead {
+    font-size: 1.02rem;
+  }
+
+  .sectionDescription {
+    font-size: 0.98rem;
+  }
+
+  .plateFoot {
+    font-size: 0.58rem;
   }
 }

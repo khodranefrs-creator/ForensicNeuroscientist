@@ -11,7 +11,7 @@ export function Footer() {
         <div className="footerGrid">
           <div className="footerBrand">
             <Link href="/" aria-label={`${site.name} — home`}>
-              <FullLogo width={420} />
+              <FullLogo width={168} />
             </Link>
             <p className="footerDescription">
               An education, training, and consultation organization exploring

@@ -2334,3 +2334,323 @@
     gap: 0.6rem;
   }
 }
+
+.pageHeroLead {
+  font-size: clamp(1.05rem, 1.35vw, 1.16rem);
+  line-height: 1.68;
+}
+
+.factRow dt {
+  font-size: 0.64rem;
+}
+
+.factRow dd {
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.narrativeBody > p + p,
+.educationIntroBody > p + p,
+.consultationIntroBody > p + p {
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+.principleCard p,
+.learningPrinciple p,
+.stepCard p,
+.fitPanel li,
+.faqGrid p {
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.founderNote {
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.founderBody > p {
+  font-size: 0.96rem;
+  line-height: 1.7;
+}
+
+.scopePanel li {
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.fitPanel > p:last-child {
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.audienceGrid > div > p:last-child,
+.topicsGrid > div > p:last-child,
+.trainingCopy > p,
+.audienceList li {
+  font-size: 0.94rem;
+  line-height: 1.65;
+}
+
+.topicCloud span {
+  font-size: 0.6rem;
+}
+
+.trainingNote li {
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.trainingNote a {
+  font-size: 0.66rem;
+}
+
+.fieldChapterNav a {
+  font-size: 0.7rem;
+}
+
+.fieldArticleVisualTop {
+  font-size: 0.64rem;
+}
+
+.fieldArticleVisual > p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.fieldBlock h3,
+.fieldQuestions h3 {
+  font-size: 0.68rem;
+}
+
+.fieldBlock li {
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.fieldQuestions li::before {
+  font-size: 0.64rem;
+}
+
+.sourceTitle {
+  font-size: 0.9rem;
+}
+
+.sourceMeta {
+  font-size: 0.64rem;
+}
+
+.sourceDisclaimer {
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
+.fieldClosingBody > p {
+  font-size: 0.96rem;
+  line-height: 1.7;
+}
+
+.libraryHeaderNote > p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.libraryHeaderNote > a {
+  font-size: 0.68rem;
+}
+
+.sortField {
+  font-size: 0.64rem;
+}
+
+.sortField select {
+  font-size: 0.66rem;
+}
+
+.libraryCount {
+  font-size: 0.64rem;
+}
+
+.videoCardMeta {
+  font-size: 0.64rem;
+}
+
+.videoCard h3 {
+  font-size: 1.12rem;
+}
+
+.videoExternal {
+  font-size: 0.7rem;
+}
+
+.emptyState > p:not(.kicker) {
+  font-size: 0.9rem;
+}
+
+.emptyState button {
+  font-size: 0.66rem;
+}
+
+.videoDialogTop .kicker {
+  font-size: 0.7rem;
+}
+
+.videoDialogFooter a {
+  font-size: 0.65rem;
+}
+
+.libraryFooter > div > p:last-child {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.archiveAuthors {
+  font-size: 0.9rem;
+}
+
+.archivePublication {
+  font-size: 0.82rem;
+}
+
+.archiveNote {
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.archiveLink {
+  font-size: 0.7rem;
+}
+
+.checklistIntro > p {
+  font-size: 0.94rem;
+  line-height: 1.65;
+}
+
+.checklistNote {
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.checklistList p {
+  font-size: 0.89rem;
+  line-height: 1.6;
+}
+
+.contactGuide span {
+  font-size: 0.64rem;
+}
+
+.contactGuide p {
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.contactChannel small {
+  font-size: 0.64rem;
+}
+
+.contactChannel > p:last-child {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.contactSafety {
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.formIntro > p:last-child {
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.formStatus {
+  font-size: 0.88rem;
+}
+
+.formStatus strong {
+  font-size: 0.9rem;
+}
+
+.formField label {
+  font-size: 0.65rem;
+}
+
+.formField input,
+.formField select,
+.formField textarea {
+  font-size: 0.95rem;
+}
+
+.fieldError {
+  font-size: 0.78rem;
+}
+
+.fieldFoot {
+  font-size: 0.68rem;
+}
+
+.formPrivacy {
+  font-size: 0.82rem;
+}
+
+.formDemoNote {
+  font-size: 0.74rem;
+}
+
+.formSafety {
+  font-size: 0.82rem;
+}
+
+.privacyIndex a {
+  font-size: 0.84rem;
+}
+
+.privacyBody article p {
+  font-size: 0.96rem;
+}
+
+.privacyNotice > p:last-child {
+  font-size: 0.9rem;
+}
+
+.notFoundCopy > p {
+  font-size: 1rem;
+}
+
+.notFoundNav a {
+  font-size: 0.7rem;
+}
+
+@media (max-width: 680px) {
+  .pageHeroLead {
+    font-size: 1.04rem;
+  }
+
+  .fieldChapterNav a {
+    font-size: 0.68rem;
+  }
+
+  .videoCard h3 {
+    font-size: 1.18rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .pageHeroLead {
+    font-size: 1.02rem;
+  }
+
+  .videoDialogTop .kicker {
+    font-size: 0.66rem;
+  }
+
+  .videoDialogFooter h2 {
+    font-size: 1.05rem;
+  }
+
+  .fieldChapterNav a {
+    font-size: 0.66rem;
+  }
+}
